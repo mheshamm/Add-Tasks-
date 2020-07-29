@@ -1,0 +1,98 @@
+#task-container{
+    display: flex;
+    
+    margin: 1em auto;
+    justify-content: center;
+    
+    flex-direction: column;
+    text-align: center;
+}
+#input-container , .tasks-container{
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px auto;
+    font-size: 25px;
+    font-family: fantasy;
+    line-height: 25px;
+    min-width: 350px;
+}
+.task-add{
+    display: flex;
+    flex-direction: column;
+}
+ h3{
+    font-family: monospace;
+    font-size: 20px;
+}
+.tasks-container{
+    position: relative;
+    
+   
+}
+
+h6 {
+    position: absolute;
+    top: -35px;
+    left: 5px;
+    font-family: monospace;
+}
+ .input{
+    height: 25px;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid royalblue;
+    background-color: rgb(208, 232, 253);
+    margin: 0 5px;
+    outline: none;
+    padding: 0px 5px;
+    
+}
+#task-input button {
+    padding: 5px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(65, 141, 255);
+    margin: 20px auto;
+    border: 0;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+}
+#submit-btn:active{
+    background-color: rgb(33, 112, 59);
+}
+.task-card{
+    display: flex;
+    border: 1px dashed red;
+    margin: 5px auto;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    
+    justify-content: space-between;
+    
+    
+}
+
+.remove .fa-times {
+    font-size: 25px;
+    color: red;
+
+}
+.r-btn {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+#clear-all{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px auto;
+}
